@@ -41,7 +41,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: grey;
-    color: white;
+    color: black;
     border: 2px solid black;
 }
 
@@ -81,4 +81,8 @@ progress {
     position: relative;
     font-size: 19px;
     left: 10px;
+}
+
+form input:focus {
+    background-color: lightgrey;
 }
